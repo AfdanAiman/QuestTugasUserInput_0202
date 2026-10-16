@@ -11,4 +11,5 @@
 
     <color name="f1_primary_navy">#1E4172</color>
     <color name="f1_accent_yellow">#FFD100</color>
+    <color name="f1_accent_red">#DC0000</color>
 </resources>
