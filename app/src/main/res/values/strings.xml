@@ -17,4 +17,5 @@
     <string name="label_tim">Tim :</string>
     <string name="exp_beginner">Rookie (&lt; 1 tahun)</string>
     <string name="exp_intermediate">Amateur (1 - 3 tahun)</string>
+    <string name="exp_pro">Professional (&gt; 3 tahun)</string>
 </resources>
