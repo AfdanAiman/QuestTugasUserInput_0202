@@ -13,4 +13,5 @@
     <color name="f1_accent_yellow">#FFD100</color>
     <color name="f1_accent_red">#DC0000</color>
     <color name="gray_background">#F5F5F5</color>
+    <color name="gray_text">#757575</color>
 </resources>
