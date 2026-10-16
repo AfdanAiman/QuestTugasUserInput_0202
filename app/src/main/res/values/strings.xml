@@ -3,4 +3,4 @@
     <string name="form_title">Form Pendaftaran Tim F1</string>
     <string name="form_subtitle">Silakan isi data registrasi pembalap tim F1 berikut ini</string>
     <string name="nama_depan">Nama Depan</string>
-</resources>
+    <string name="nama_belakang">Nama Belakang</string></resources>
