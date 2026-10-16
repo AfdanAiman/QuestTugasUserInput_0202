@@ -10,4 +10,5 @@
     <string name="team_mercedes">Mercedes-AMG</string>
     <string name="team_ferrari">Scuderia Ferrari</string>
     <string name="proceed">Proceed</string>
+    <string name="label_nama">Nama : </string>
 </resources>
