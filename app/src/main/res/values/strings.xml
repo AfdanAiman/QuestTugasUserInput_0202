@@ -15,4 +15,5 @@
     <string name="label_tgl_lahir">Tgl Lahir : </string>
     <string name="label_experience">Experience : </string>
     <string name="label_tim">Tim :</string>
+    <string name="exp_beginner">Rookie (&lt; 1 tahun)</string>
 </resources>
