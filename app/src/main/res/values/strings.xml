@@ -7,4 +7,5 @@
     <string name="email">Email</string>
     <string name="pilih_tim">Pilih Tim F1 Anda</string>
     <string name="team_red_bull">Red Bull Racing</string>
+    <string name="team_mercedes">Mercedes-AMG</string>
 </resources>
