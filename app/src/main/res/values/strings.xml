@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">tugasprak5</string>
     <string name="form_title">Form Pendaftaran Tim F1</string>
@@ -7,18 +8,26 @@
     <string name="email">Email</string>
     <string name="tgl_lahir">Tgl Lahir</string>
     <string name="experience">Experience</string>
-    <string name="pilih_tim">Pilih Tim F1 Anda</string>
+    <string name="pilih_tim">Pilih Tim F1 Anda :</string>
     <string name="team_red_bull">Red Bull Racing</string>
     <string name="team_mercedes">Mercedes-AMG</string>
     <string name="team_ferrari">Scuderia Ferrari</string>
     <string name="proceed">Proceed</string>
     <string name="desc_header_bg">Header Background F1</string>
     <string name="desc_cal_icon">Icon Kalender</string>
+    <string name="desc_dropdown_icon">Icon Dropdown</string>
+
+
+    <string name="pilih_skill">Pilih Skill Anda :</string>
+    <string name="skill_sim_racing">Sim Racing</string>
+    <string name="skill_pit_stop">Pit Stop</string>
+    <string name="skill_telemetry">Telemetry</string>
+
     <string name="label_nama">Nama : </string>
     <string name="label_email">Email : </string>
     <string name="label_tgl_lahir">Tgl Lahir : </string>
     <string name="label_experience">Experience : </string>
-    <string name="label_tim">Tim :</string>
+    <string name="label_tim">Tim : </string>
     <string name="exp_beginner">Rookie (&lt; 1 tahun)</string>
     <string name="exp_intermediate">Amateur (1 - 3 tahun)</string>
     <string name="exp_pro">Professional (&gt; 3 tahun)</string>
