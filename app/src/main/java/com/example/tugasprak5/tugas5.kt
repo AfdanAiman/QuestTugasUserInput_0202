@@ -18,6 +18,7 @@ fun FormF1Screen(modifier: Modifier = Modifier){
     var selectedExperience by remember { mutableStateOf("") }
     var selectedTim by remember { mutableStateOf("") }
     var showDatePicker by remember { mutableStateOf(false) }
+    var expandedExperience by remember { mutableStateOf(false) }
 }
 
 
