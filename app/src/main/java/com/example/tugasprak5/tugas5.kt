@@ -14,6 +14,7 @@ fun FormF1Screen(modifier: Modifier = Modifier){
     var textNamaDepan by remember { mutableStateOf("") }
     var textNamaBelakang by remember { mutableStateOf("") }
     var textEmail by remember { mutableStateOf("") }
+    var selectedDateText by remember { mutableStateOf("") }
 }
 
 
