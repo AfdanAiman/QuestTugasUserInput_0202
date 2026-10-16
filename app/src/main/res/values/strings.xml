@@ -8,4 +8,6 @@
     <string name="pilih_tim">Pilih Tim F1 Anda</string>
     <string name="team_red_bull">Red Bull Racing</string>
     <string name="team_mercedes">Mercedes-AMG</string>
+    <string name="team_ferrari">Scuderia Ferrari</string>
+
 </resources>
