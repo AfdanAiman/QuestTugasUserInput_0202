@@ -12,4 +12,5 @@
     <string name="proceed">Proceed</string>
     <string name="label_nama">Nama : </string>
     <string name="label_email">Email : </string>
+    <string name="label_tim">Tim : </string>
 </resources>
