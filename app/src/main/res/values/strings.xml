@@ -5,6 +5,8 @@
     <string name="nama_depan">Nama Depan</string>
     <string name="nama_belakang">Nama Belakang</string>
     <string name="email">Email</string>
+    <string name="tgl_lahir">Tgl Lahir</string>
+    <string name="experience">Experience</string>
     <string name="pilih_tim">Pilih Tim F1 Anda</string>
     <string name="team_red_bull">Red Bull Racing</string>
     <string name="team_mercedes">Mercedes-AMG</string>
