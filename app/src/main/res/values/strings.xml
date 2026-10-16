@@ -10,6 +10,8 @@
     <string name="team_mercedes">Mercedes-AMG</string>
     <string name="team_ferrari">Scuderia Ferrari</string>
     <string name="proceed">Proceed</string>
+    <string name="desc_header_bg">Header Background F1</string>
+    <string name="desc_cal_icon">Icon Kalender</string>
     <string name="label_nama">Nama : </string>
     <string name="label_email">Email : </string>
     <string name="label_tgl_lahir">Tgl Lahir : </string>
