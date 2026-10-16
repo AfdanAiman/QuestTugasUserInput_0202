@@ -7,5 +7,5 @@
     <dimen name="divider_tipis">1dp</dimen>
     <dimen name="card_width">340dp</dimen>
     <dimen name="header_height">220dp</dimen>
-    <dimen name="form_top_offset">140dp</dimen>
+    <dimen name="form_top_offset">130dp</dimen>
 </resources>
