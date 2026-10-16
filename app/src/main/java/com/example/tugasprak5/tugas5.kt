@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 @Composable
 fun FormF1Screen(modifier: Modifier = Modifier){
     var textNamaDepan by remember { mutableStateOf("") }
+    var textNamaBelakang by remember { mutableStateOf("") }
 }
 
 
