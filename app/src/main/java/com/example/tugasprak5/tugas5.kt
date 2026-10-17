@@ -41,6 +41,8 @@ fun FormF1Screen(modifier: Modifier = Modifier) {
     var submittedEmail by remember { mutableStateOf("") }
     var submittedDate by remember { mutableStateOf("") }
     var submittedExperience by remember { mutableStateOf("") }
+    var submittedSkill by remember { mutableStateOf("") }
+
     var showResult by remember { mutableStateOf(false) }
 
     var showDatePicker by remember { mutableStateOf(false) }
@@ -87,6 +89,40 @@ fun FormF1Screen(modifier: Modifier = Modifier) {
         ) {
             DatePicker(state = datePickerState)
         }
+    }
+
+    if (showResult) {
+        AlertDialog(
+            onDismissRequest = { showResult = false },
+            title = {
+                Text(
+                    text = "Hasil Biodata",
+                    color = colorResource(R.color.f1_primary_navy),
+                    style = MaterialTheme.typography.titleLarge
+                )
+            },
+            text = {
+                Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    Text(text = "Nama: $submittedNamaDepan $submittedNamaBelakang")
+                    Text(text = "Email: $submittedEmail")
+                    Text(text = "Tgl Lahir: $submittedDate")
+                    Text(text = "Experience: $submittedExperience")
+                    Text(text = "Skill: $submittedSkill")
+                }
+            },
+            confirmButton = {
+                Button(
+                    onClick = { showResult = false },
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = colorResource(R.color.f1_primary_navy)
+                    ),
+                    shape = RoundedCornerShape(20.dp)
+                ) {
+                    Text(text = "Tutup", color = colorResource(R.color.white))
+                }
+            },
+            shape = RoundedCornerShape(28.dp)
+        )
     }
 
     Scaffold(
@@ -399,6 +435,13 @@ fun FormF1Screen(modifier: Modifier = Modifier) {
                                 submittedEmail = textEmail
                                 submittedDate = selectedDateText
                                 submittedExperience = selectedExperience
+
+                                val listSkill = mutableListOf<String>()
+                                if (isSimRacingChecked) listSkill.add("Sim Racing")
+                                if (isPitStopChecked) listSkill.add("Pit Stop")
+                                if (isTelemetryChecked) listSkill.add("Telemetry")
+                                submittedSkill = if (listSkill.isNotEmpty()) listSkill.joinToString(", ") else "-"
+
                                 showResult = true
                             },
                             modifier = Modifier
@@ -416,40 +459,6 @@ fun FormF1Screen(modifier: Modifier = Modifier) {
                                 color = colorResource(R.color.white),
                                 style = MaterialTheme.typography.titleMedium
                             )
-                        }
-
-                        if (showResult && submittedNamaDepan.isNotEmpty()) {
-                            Spacer(modifier = Modifier.height(12.dp))
-
-                            Card(
-                                colors = CardDefaults.cardColors(
-                                    containerColor = colorResource(
-                                        R.color.f1_primary_navy
-                                    )
-                                ),
-                                modifier = Modifier.fillMaxWidth()
-                            ) {
-                                Column(
-                                    modifier = Modifier.padding(16.dp)
-                                ) {
-                                    Text(
-                                        text = "Nama: $submittedNamaDepan $submittedNamaBelakang",
-                                        color = colorResource(R.color.white)
-                                    )
-                                    Text(
-                                        text = "Email: $submittedEmail",
-                                        color = colorResource(R.color.white)
-                                    )
-                                    Text(
-                                        text = "Tgl Lahir: $submittedDate",
-                                        color = colorResource(R.color.white)
-                                    )
-                                    Text(
-                                        text = "Experience: $submittedExperience",
-                                        color = colorResource(R.color.white)
-                                    )
-                                }
-                            }
                         }
                     }
                 }
